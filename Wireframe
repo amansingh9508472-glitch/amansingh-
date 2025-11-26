@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Wireframe</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    nav {
+      background-color: #555;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      display: inline-block;
+    }
+    nav a:hover {
+      background-color: #777;
+    }
+    .container {
+      margin: 20px;
+      padding: 20px;
+      background: white;
+      border: 2px dashed #ccc;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #333;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .box {
+      border: 2px dashed #999;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      background-color: #fafafa;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .col {
+      flex: 1;
+      min-width: 200px;
+      border: 1px dashed #bbb;
+      text-align: center;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🧭Wireframe</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#login">Login</a>
+    <a href="#register">Register</a>
+    <a href="#category">Categories</a>
+    <a href="#admin-login">Admin</a>
+    <a href="#product-admin">Product Mgmt</a>
+    <a href="#user-view1">Product View 1</a>
+    <a href="#user-view2">Product View 2</a>
+  </nav>
+
+  <!-- HOME PAGE -->
+  <div id="home" class="container">
+    <h2>🏠 Home Page</h2>
+    <div class="box">Banner / Hero Image</div>
+    <div class="box">Navigation Bar</div>
+    <div class="box">Featured Products</div>
+    <div class="box">Footer</div>
+  </div>
+
+  <!-- CONTACT PAGE -->
+  <div id="contact" class="container">
+    <h2>📞 Contact Page</h2>
+    <div class="box">Contact Form (Name, Email, Message)</div>
+    <div class="box">Map / Office Address</div>
+  </div>
+
+  <!-- LOGIN PAGE -->
+  <div id="login" class="container">
+    <h2>🔐 Login Page</h2>
+    <div class="box">Username / Email Field</div>
+    <div class="box">Password Field</div>
+    <div class="box">Login Button</div>
+  </div>
+
+  <!-- REGISTRATION PAGE -->
+  <div id="register" class="container">
+    <h2>📝 Registration Page</h2>
+    <div class="box">Full Name / Email / Password / Confirm Password</div>
+    <div class="box">Gender / Age / Country Selection</div>
+    <div class="box">Register Button</div>
+  </div>
+
+  <!-- CATEGORY PAGE -->
+  <div id="category" class="container">
+    <h2>🗂 Category Page</h2>
+    <div class="row">
+      <div class="col">Adventure</div>
+      <div class="col">Cultural</div>
+      <div class="col">Nature</div>
+      <div class="col">Luxury</div>
+    </div>
+  </div>
+
+  <!-- ADMIN LOGIN PAGE -->
+  <div id="admin-login" class="container">
+    <h2>🧑‍💼 Admin Login Page</h2>
+    <div class="box">Admin ID</div>
+    <div class="box">Password</div>
+    <div class="box">Login Button</div>
+  </div>
+
+  <!-- PRODUCT MANAGEMENT (ADMIN SIDE) -->
+  <div id="product-admin" class="container">
+    <h2>⚙ Product Management (Admin)</h2>
+    <div class="box">Add New Product Form</div>
+    <div class="box">Product List Table (Edit / Delete Buttons)</div>
+  </div>
+
+  <!-- USER PRODUCT VIEW - 1 -->
+  <div id="user-view1" class="container">
+    <h2>🛍 User Product View - 1</h2>
+    <div class="row">
+      <div class="col">Product Image</div>
+      <div class="col">Product Details</div>
+      <div class="col">Add to Cart Button</div>
+    </div>
+  </div>
+
+  <!-- USER PRODUCT VIEW - 2 -->
+  <div id="user-view2" class="container">
+    <h2>🛒 User Product View - 2</h2>
+    <div class="row">
+      <div class="col">Product Image</div>
+      <div class="col">Description</div>
+      <div class="col">Price and Buy Button</div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Website Wireframe Design — Created with HTML</p>
+  </footer>
+
+</body>
